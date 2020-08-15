@@ -3,7 +3,7 @@ execute 'timedatectl set-timezone Asia/Tokyo' do
 end
 
 execute "locale-gen" do
-  subscribes :edit, 'file[/etc/locale.gen]'
+  subscribes :run, 'file[/etc/locale.gen]'
   action :nothing 
 end
 
