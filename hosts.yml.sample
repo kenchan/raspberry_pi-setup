@@ -2,5 +2,8 @@ pi:
   ssh_options:
     user: pi
   properties:
+    attributes:
+      mackerel_agent:
+        apikey: 'your api key'
     run_list:
       - default.rb
