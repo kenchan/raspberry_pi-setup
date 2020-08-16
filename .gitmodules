@@ -1,0 +1,3 @@
+[submodule "plugins/mitamae-plugin-resource-apt"]
+	path = plugins/mitamae-plugin-resource-apt
+	url = https://github.com/moritzheiber/mitamae-plugin-resource-apt.git
